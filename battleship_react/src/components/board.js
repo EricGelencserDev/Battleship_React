@@ -253,25 +253,27 @@ class Board extends Component {
         return(
             <div id="gameBoard">
 
-                    <table>
-                        <tbody>
-                            { this.renderRows() }
-                        </tbody>
-                    </table>
+              <div id="info">
+                  <div id="torpedoes">
+                          <h2> {this.state.turns}/30 torpedoes left </h2>
+                          <h2> {this.state.totalShips}/16 hits left </h2>
+                      <div id="sunk">
+                          <h2>Ships sunk:</h2>
+                          <h4>{this.state.BattleshipSunk}</h4>
+                          <h4>{this.state.SubmarineSunk}</h4>
+                          <h4>{this.state.DestroyerSunk}</h4>
+                          <h4>{this.state.PaddleboatSunk}</h4>
+                      </div>
+                  </div>
+              </div>
 
-                <div id="info">
-                    <div id="torpedoes">
-                            <h2> {this.state.turns}/30 torpedoes left </h2>
-                            <h2> {this.state.totalShips}/16 hits left </h2>
-                        <div id="sunk">
-                            <h2>Ships sunk:</h2>
-                            <h4>{this.state.BattleshipSunk}</h4>
-                            <h4>{this.state.SubmarineSunk}</h4>
-                            <h4>{this.state.DestroyerSunk}</h4>
-                            <h4>{this.state.PaddleboatSunk}</h4>
-                        </div>
-                    </div>
-                </div>
+              <table>
+                  <tbody>
+                      { this.renderRows() }
+                  </tbody>
+              </table>
+
+
             </div>
         )
     }

@@ -2,31 +2,41 @@ html {
   text-align: center;
   margin: auto;
   color: white;
-  background-image: url('http://www.provideoshop.com/wp-content/uploads/2016/06/spinningmoon2.jpg');
+  background-image: url('./images/space.jpg');
   background-size: fill;
-  background-position: center;
+  background-position: absolute;
   background-size: 1800px;
-}
-
-body {
-  background-color: rgba(255, 255, 255, 0);
-  text-align: center;
-  margin: auto;
+  font-family: 'Gugi', cursive;
 }
 
 h1, h2, h4 {
-  font-family: sans-serif;
+  font-family: 'Gugi', cursive;
+}
+
+#title {
+  font-family: 'Gugi', cursive;
+  font-size: 40px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 #info {
-  background-color: rgba(255, 255, 255, .75);
-  position: relative;
-  top: 10px;
-  width: 40%;
-  margin: auto;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  position: absolute;
+  top: 160px;
+  width: 15%;
   padding: 10px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-left: 158px;
+  color: white;
 }
 
 #resetButton {
@@ -37,21 +47,19 @@ h1, h2, h4 {
   padding: 10px;
   color: white;
   background-color: #af4bf1;
+  border: #af4bf1;
+  font-family: 'Gugi', cursive;
+  font-size: 30px;
 }
 
 #gameBoard {
   margin: auto;
 }
 
-#torpedoes {
-  /* background-image: url('./wheel.png') */
-}
-
 table {
   margin: auto;
   border-collapse: collapse;
   position: relative;
-  /* cursor: url('./ship.png'), auto; */
 }
 
 td {
@@ -62,10 +70,9 @@ td {
 }
 
 td:hover {
-  background-color: red;
-  /* background-image: url('./crosshair2.png');
+  background-image: url('http://mrdo.mameworld.info/mame_cross/railchase_cross.png');
   background-size: cover;
-  background-position: center; */
+  background-position: center;
 }
 
 td:active {
@@ -75,9 +82,8 @@ td:active {
 }
 
 h1, h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gugi', cursive;
   font-weight: bold;
-  /* font-family: 'Source Sans Pro', sans-serif; */
 }
 
 /* conditional CSS classes for state changes in the squares */
@@ -88,28 +94,22 @@ h1, h2 {
 
 .ship {
   background-color: white;
-  /* background-color: red; */
 }
 
 .miss {
-  background-color: black;
-  /* background-image: url('./ocean.jpg');
-  background-color: cyan;
-  background-size: cover;
-  background-position: center; */
+  background-color: gray;
 }
 
 .hit {
-  background-color: green;
-  /* background-image: url('./explosion.png');
+  background-image: url('./images/boom.png');
   background-size: cover;
   background-position: center;
-  background-color: red; */
+  background-color: white;
 }
 
 .missedShip {
-  /* background-image: url('./ship.png');
+  background-image: url('./images/ship.png');
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   background-color: white;
 }

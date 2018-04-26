@@ -16,7 +16,7 @@ class App extends Component {
             <div>
                 <Route exact path ="/" render={ props => (
                     <div>
-                        <h1> Battleship </h1>
+                        <h1 id="title"> Battleship </h1>
 
                         <Board />
                         <Button id="resetButton" onClick={this.handleClick}>New game</Button>
