@@ -35,13 +35,13 @@ Specifications
 - Required hardware: MacOS or PC
 
 Class Detail Plan
---Basic Javascript
--Students will understand the fundamentals of Javascript using functions, if else statements loops and other basic knowledge.
---Intro to React.js
--Starting with $create-react-app, students will understand the framework and the scaffolding of the $create-react-app. Using their knowledge of functions and loops they will begin to work through the logic of the  game rules.
---State and Props
--At this point the students will continue to work out functionality of the game as well as an introduction to state and props and how it can be used to update the game.
---Design and Deploy
--Students will have a working battleship game as a react component that renders a basic HTML table. Students will get to design there game board using basic CSS and possibly some Bootstrap 4 react components. Nearing the end of the workshop students will make a free account on Heroku and deploy battleship game to play.
+-Basic Javascript
+	-Students will understand the fundamentals of Javascript using functions, if else statements loops and other basic 	    knowledge.
+-Intro to React.js
+	-Starting with $create-react-app, students will understand the framework and the scaffolding of the $create-react-	   app. Using their knowledge of functions and loops they will begin to work through the logic of the  game rules.
+-State and Props
+	-At this point the students will continue to work out functionality of the game as well as an introduction to state   	     and props and how it can be used to update the game.
+-Design and Deploy
+	-Students will have a working battleship game as a react component that renders a basic HTML table. Students will 	   get to design there game board using basic CSS and possibly some Bootstrap 4 react components. Nearing the end of            the workshop students will make a free account on Heroku and deploy battleship game to play.
 
 
