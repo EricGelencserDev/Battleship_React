@@ -1,8 +1,11 @@
-This is a full re-make of the classic game of "Battleship". Built using the React.js framework.
+This is a full re-make of the classic game of "Battleship" for "The LEAGUE of Extrodornay Progammers". The LEAGUE is an after school program for middel schoolers t Built using the React.js framework. 
+
+*Getting started
 
  - git clone this repo
  - npm install
  - npm start
+ 
  
 JavaShip or BattleScript (A Battleship game built with React.Js)
 
