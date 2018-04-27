@@ -1,5 +1,3 @@
-#JavaShip
-
 This is a full re-make of the classic game of "Battleship" for "The LEAGUE of Amazing Progammers". The LEAGUE is an after school program for middel schoolers t Built using the React.js framework.
 
 The LEAGUE of Amazing Programmers website
