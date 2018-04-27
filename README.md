@@ -1,6 +1,11 @@
-This is a full re-make of the classic game of "Battleship" for "The LEAGUE of Extrodornay Progammers". The LEAGUE is an after school program for middel schoolers t Built using the React.js framework. 
+#JavaShip
 
-*Getting started
+This is a full re-make of the classic game of "Battleship" for "The LEAGUE of Amazing Progammers". The LEAGUE is an after school program for middel schoolers t Built using the React.js framework.
+
+The LEAGUE of Amazing Programmers website
+- (http://www.jointheleague.org/)
+
+To run on localhost
 
  - git clone this repo
  - npm install
